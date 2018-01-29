@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+// ElModule必须和BrowserAnimationsModule一起被添加，不然动画效果没法展示，排版也会有问题
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ElModule } from 'element-angular';
 
 import { AppComponent } from './app.component';
@@ -11,6 +14,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     ElModule.forRoot()
   ],
   providers: [],
