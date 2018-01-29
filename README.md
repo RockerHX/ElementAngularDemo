@@ -1,10 +1,11 @@
 # ElementAngularDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+UI Library is [element-angular](https://element-angular.faas.ele.me/guide/install) version 0.5.4.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve -open` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
