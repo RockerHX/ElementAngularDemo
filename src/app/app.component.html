@@ -3,8 +3,6 @@
 <div el-row class="tac">
   <div el-col span="6">
 
-    <h1>Element Angular Demo</h1>
-
     <el-menu>
 
       <el-submenu  *ngFor="let menu of menus; let menuIndex = index" index={{menuIndex}} title={{menu.title}}>
@@ -17,5 +15,7 @@
 
   </div>
 
-  <router-outlet></router-outlet>
+  <div el-col span="18" class="content">
+    <router-outlet></router-outlet>
+  </div>
 </div>
