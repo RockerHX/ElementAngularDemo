@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BasicLayoutComponent } from './basic-layout/basic-layout.component';
+import { BasicContainerComponent } from './basic-container/basic-container.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicLayoutComponent
+    BasicLayoutComponent,
+    BasicContainerComponent
   ],
   imports: [
     BrowserModule,
