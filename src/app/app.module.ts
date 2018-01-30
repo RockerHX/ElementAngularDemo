@@ -8,10 +8,13 @@ import { ElModule } from 'element-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { BasicLayoutComponent } from './basic-layout/basic-layout.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicLayoutComponent
   ],
   imports: [
     BrowserModule,
